@@ -17,8 +17,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "NestAdsOfferwallSDK",
-      url: "https://github.com/wisebirds/nestads-offerwall-ios-sdk/releases/download/0.1.0/NestAdsOfferwallSDK.xcframework.zip",
-      checksum: "5cdd6533b463d161816417e75ac8249665fdb1b52a4a3869af999e6ff28393c8"
+      url: "https://github.com/wisebirds/nestads-offerwall-ios-sdk/releases/download/1.0.0/NestAdsOfferwallSDK.xcframework.zip",
+      checksum: "901453f983470dc354c846deae062c5776bb0f197ef1259259f83bd10c0e32d4"
     ),
     .target(
       name: "NestAdsOfferwallSDKWrapper",

@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
   name: "NestAdsOfferwallSDK",
   platforms: [
-    .iOS(.v14)
+    .iOS(.v15)
   ],
   products: [
     .library(
@@ -12,13 +12,13 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/1selfworld-labs/adchain-sdk-ios-release.git", .upToNextMinor(from: "1.0.47"))
+    .package(url: "https://github.com/1selfworld-labs/adchain-sdk-ios-release.git", .upToNextMinor(from: "1.0.54"))
   ],
   targets: [
     .binaryTarget(
       name: "NestAdsOfferwallSDK",
-      url: "https://github.com/wisebirds/nestads-offerwall-ios-sdk/releases/download/1.0.0/NestAdsOfferwallSDK.xcframework.zip",
-      checksum: "901453f983470dc354c846deae062c5776bb0f197ef1259259f83bd10c0e32d4"
+      url: "https://github.com/wisebirds/nestads-offerwall-ios-sdk/releases/download/1.0.1/NestAdsOfferwallSDK.xcframework.zip",
+      checksum: "47130b3ea2033bdf5d8a1ee3ef78dd72844d70e9812af3859ffc0e9bb63cd168"
     ),
     .target(
       name: "NestAdsOfferwallSDKWrapper",
